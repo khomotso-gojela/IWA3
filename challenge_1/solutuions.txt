@@ -1,0 +1,12 @@
+1. Why does the code not work?
+    ~ the javascript file was not properly linked with the html file
+    ~ the variable used in the scripts.js file were not imported correctly(wrong syntax)
+    ~ the imported variables were not exported in the config.js file.
+    
+2. What changes do you need to make to achieve the intended behaviour?
+    ~ link scripts file with correct syntax.
+    ~ export variables in the configuration.js file
+    ~ import variables from the config file with corrrect syntaz.
+    
+3. Are there any other ways in which it can be been solved?
+    ~ we can import the whole configuuration.js file to scripts.js file instead of importing each variable individually.
